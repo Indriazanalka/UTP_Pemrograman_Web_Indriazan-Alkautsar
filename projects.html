@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyek - Indriazan Alkautsar</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Animasi masuk halaman */
+    .fade-in {
+      animation: fadeIn 1s ease-in-out forwards;
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-r from-gray-500 via-gray-400 to-white text-gray-900 min-h-screen flex flex-col fade-in">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-700 shadow p-4">
+    <div class="container mx-auto flex justify-between">
+      <h1 class="text-xl font-bold text-white">Indriazan Alkautsar</h1>
+      <ul class="flex gap-4 text-white">
+        <li><a href="index.html" class="hover:text-blue-400">Beranda</a></li>
+        <li><a href="projects.html" class="text-blue-400 font-semibold">Proyek</a></li>
+        <li><a href="skills.html" class="hover:text-blue-400">Keahlian</a></li>
+        <li><a href="certificate.html" class="hover:text-blue-400">Sertifikat</a></li>
+        <li><a href="contact.html" class="hover:text-blue-400">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section Proyek -->
+  <section class="container mx-auto px-6 py-12 flex-grow">
+    <h2 class="text-3xl font-bold text-center mb-6">Proyek Saya</h2>
+    <p class="text-lg text-gray-800 text-left max-w-9xl mx-auto mb-10 font-semibold">
+      Berikut adalah beberapa proyek yang pernah saya buat, baik di bidang videografi,maupun 3d game modeling
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <!-- Proyek 1 -->
+      <a href="https://www.instagram.com/reel/DIWVO0DBvbs/?igsh=YThhOHZvcnljMWZr" target="_blank"
+        class="block bg-white p-6 rounded-xl shadow-md transition transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
+        <img src="assets/IMG_2246.PNG" alt="CSS 2024" class="w-full h-48 object-cover rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">After Movie CSS Unila 2024</h3>
+        <p class="text-gray-600">Video after movie Computer Science Showdown 2024.</p>
+      </a>
+
+      <!-- Proyek 2 -->
+      <a href="https://www.instagram.com/reel/C-5PrMdyrcG/?igsh=MTh1cDc4OHNxcXh5Yg==" target="_blank"
+        class="block bg-white p-6 rounded-xl shadow-md transition transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
+        <img src="assets/IMG_2245.PNG" alt="AKBAR Asvers" class="w-full h-48 object-cover rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">After Movie AKBAR Asvers 7</h3>
+        <p class="text-gray-600">Video after movie Akrab Bareng Asvers 7 2024.</p>
+      </a>
+
+      <!-- Proyek 3 -->
+      <a href="https://karyakarsa.com/claree/ice-941753" target="_blank"
+        class="block bg-white p-6 rounded-xl shadow-md transition transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
+        <img src="assets/Screenshot_ksk_scirocco_r_2010_wide_ics_26-2-125-0-5-31.png" alt="Ice Cream Service" class="w-full h-48 object-cover rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Map Assetto Corsa Ice Cream Service "3D Game Modeling"</h3>
+        <p class="text-gray-600">Map / track Assetto Corsa Ice Cream Service</p>
+      </a>
+
+      <!-- Proyek 4 -->
+      <a href="3d_game_Modeling.html" target="_blank"
+        class="block bg-white p-6 rounded-xl shadow-md transition transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
+        <img src="assets/Screenshot_2gdchamel_-_copy_chuckwalla_valley_3-1-125-14-0-9.jpg" alt="Mod Car" class="w-full h-48 object-cover rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Mod car Assetto Corsa "3D Game Modeling"</h3>
+        <p class="text-gray-600">Mod car Assetto Corsa Toyota Fortuner, Innova</p>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Footer-->
+  <footer class="bg-gray-600 shadow mt-7 py-4 text-center">
+    <div class="flex justify-center space-x-6">
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/alkaanzz?igsh=ZzJqaGo3N21kd2U0" target="_blank" class="text-gray-900 hover:text-pink-500 transition flex items-center space-x-2">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5A4.25 4.25 0 0020.5 16.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7zm4.75-.75a.75.75 0 110 1.5.75.75 0 010-1.5z"/>
+        </svg>
+        <span class="text-sm">@alkaanzz</span>
+      </a>
+  
+      <!-- GitHub -->
+      <a href="https://github.com/Indriazanalka/" target="_blank" class="text-gray-900 hover:text-pink-500 transition flex items-center space-x-2">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 0a12 12 0 00-3.79 23.4c.6.1.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61a3.18 3.18 0 00-1.33-1.75c-1.09-.74.08-.73.08-.73a2.53 2.53 0 011.84 1.24 2.58 2.58 0 003.52 1 2.58 2.58 0 01.77-1.63c-2.67-.3-5.47-1.34-5.47-5.94a4.65 4.65 0 011.24-3.23 4.3 4.3 0 01.12-3.18s1-.32 3.28 1.23a11.37 11.37 0 015.98 0c2.28-1.55 3.28-1.23 3.28-1.23a4.3 4.3 0 01.12 3.18 4.65 4.65 0 011.24 3.23c0 4.6-2.8 5.64-5.48 5.94a2.88 2.88 0 01.82 2.22v3.29c0 .32.22.69.83.58A12 12 0 0012 0z"/>
+        </svg>
+        <span class="text-sm">Indriazanalka</span>
+      </a>
+    </div>
+  </footer>
+  
